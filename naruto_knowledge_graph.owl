@@ -1,0 +1,3043 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25"
+     xml:base="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-25="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_a_group_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_a_group_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#其他归属"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#晓"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鹰小队"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影忍者"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_a_person_from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_a_person_from">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_a_village_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_a_village_in">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#云隐村"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#岩隐村"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂隐村"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨隐村"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾隐村"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐村"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影忍者"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_child_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_child_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_parent_of"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_form -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_form">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土影"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土忍其他"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#岩隐村"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_from -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_from">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷影"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷忍其他"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#云隐村"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_from2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_from2">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三忍"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#后代"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#暗部"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶丸军团"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶高层"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特别上忍"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第七班"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第三班"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第八班"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第十班"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_from3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_from3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂忍其他"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂隐高层"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#风影"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂隐村"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_from4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_from4">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍其他"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍高层"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨隐村"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_from5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_from5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（一）"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（二）"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水影"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾忍其他"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾隐村"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_from6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_from6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#听小骨三人众"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音忍其他"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音忍高层"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐五人众"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐村"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_married_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_married_to">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_parent_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_parent_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_sibling_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_sibling_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_student_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_student_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_teacher_of"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_teacher_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#is_teacher_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#归属"/>
+    </rdf:Description>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#体重 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#体重">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#性别 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#性别">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#查克拉属性 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#查克拉属性">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#武器 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#武器">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#生日 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#生日">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#血型 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#血型">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#身高 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#身高">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三忍 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三忍">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#云隐村 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#云隐村">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#归属"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#其他归属 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#其他归属">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#归属"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#后代 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#后代">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#听小骨三人众 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#听小骨三人众">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土影 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土影">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#岩隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土忍其他 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土忍其他">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#岩隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#岩隐村 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#岩隐村">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#归属"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#归属 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#归属">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影忍者"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（一） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（一）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（二） -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（二）">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#晓 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#晓">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#归属"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#暗部 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#暗部">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶丸军团 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶丸军团">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#归属"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶高层 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶高层">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水影 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水影">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影忍者 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影忍者"/>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特别上忍 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特别上忍">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂忍其他 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂忍其他">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂隐村 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂隐村">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#归属"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂隐高层 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂隐高层">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第七班 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第七班">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第三班 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第三班">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第八班 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第八班">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第十班 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第十班">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍其他 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍其他">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍高层 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍高层">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨隐村 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨隐村">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#归属"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷影 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷影">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#云隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷忍其他 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷忍其他">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#云隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾忍其他 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾忍其他">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾隐村 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾隐村">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#归属"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音忍其他 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音忍其他">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音忍高层 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音忍高层">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐五人众 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐五人众">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐村 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐村">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#归属"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#风影 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#风影">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂隐村"/>
+    </owl:Class>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鹰小队 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鹰小队">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#归属"/>
+    </owl:Class>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#一反 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#一反">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三代目 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三代目">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#风影"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三代目水影 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三代目水影">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水影"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三代艾 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三代艾">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷影"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三船 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三船">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#其他归属"/>
+        <untitled-ontology-25:体重>72.3kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>无</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>4月1日（牡羊座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:身高>170.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#不知火玄间 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#不知火玄间">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特别上忍"/>
+        <untitled-ontology-25:体重>71kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>7月17日（巨蟹座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>181cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#二代艾 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#二代艾">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷影"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#二位柚木门 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#二位柚木门">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#伊势乌冬 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#伊势乌冬">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶丸军团"/>
+        <untitled-ontology-25:体重>26.5kg（第一部）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>4月3日（白羊座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>127.5cm（第一部）→142.9cm（第二部）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#佐井 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#佐井">
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中井阵"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中井野"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#暗部"/>
+        <untitled-ontology-25:体重>53.3kg（第二部至漫画699话）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>水、火、土、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>11月25日（射手座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>172.2cm（第二部至漫画699话）→176cm(剧场版10)</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#佩恩 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#佩恩">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#晓"/>
+        <untitled-ontology-25:性别>畜生道（新）为女，其余全部为男性</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#六道仙人 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#六道仙人">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#其他归属"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#分福 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#分福">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂忍其他"/>
+        <untitled-ontology-25:体重>38.2kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>2月9日</untitled-ontology-25:生日>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#初代艾 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#初代艾">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷影"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#剑美澄 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#剑美澄">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音忍其他"/>
+        <untitled-ontology-25:体重>61.4kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>11月30日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>174.7cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#加硫罗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#加硫罗">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂忍其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#我爱罗"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#手鞠"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#勘九郎"/>
+        <untitled-ontology-25:体重>50.7kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>11月11日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>170.5cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#勘九郎 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#勘九郎">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂忍其他"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#罗砂"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#加硫罗"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#手鞠"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#我爱罗"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#马基"/>
+        <untitled-ontology-25:体重>50.9kg→61.2kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>风、雷、土、水</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>5月15日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>167cm→175cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千代 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千代">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂隐高层"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#海老藏"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#烈斗"/>
+        <untitled-ontology-25:体重>39.1kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>10月15日（天秤座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>149.1cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手扉间 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手扉间">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手柱间"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水户门炎"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞日斩"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#转寝小春"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#志村团藏"/>
+        <untitled-ontology-25:体重>70.5kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、水、阴、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>2月19日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>182.3cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手柱间 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手柱间">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手扉间"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡水户"/>
+        <untitled-ontology-25:体重>74kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、水、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>10月23日（天秤座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>185.1cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手绳树 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手绳树">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手纲手"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#卡鲁伊 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#卡鲁伊">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷忍其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道蝶蝶"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道丁次"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奇拉比"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#卯月夕颜 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#卯月夕颜">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#暗部"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#叠伊瓦希 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#叠伊瓦希">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:体重>51.5kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>1月2日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>173cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#叶仓 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#叶仓">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂忍其他"/>
+        <untitled-ontology-25:体重>46.3kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>4月9日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>166.3cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#和马 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#和马">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>风、土</untitled-ontology-25:查克拉属性>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#四代艾 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#四代艾">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷影"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土台 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土台">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#地陆 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#地陆">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:体重>59.1kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>7月1日（巨蟹座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>179cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#夕日红 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#夕日红">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第八班"/>
+        <untitled-ontology-25:体重>54.4Kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>6月11日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>169.1cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#多斯·砧 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#多斯·砧">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#听小骨三人众"/>
+        <untitled-ontology-25:体重>49kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>6月12日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>158.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#多由也 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#多由也">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐五人众"/>
+        <untitled-ontology-25:体重>38.2kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>2月15日（水瓶座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>148.2cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#夜叉丸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#夜叉丸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂忍其他"/>
+        <untitled-ontology-25:体重>50.1kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>5月23日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>170.1cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大石 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大石">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木因陀罗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木因陀罗">
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木羽衣"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木阿修罗"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#其他归属"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木羽村 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木羽村">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#其他归属"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木辉夜"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木羽衣"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、水、阳、阴</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>8月6日（狮子座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:身高>不明（漫画）；153-185cm（TV681-682设定图）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木辉夜 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木辉夜">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#其他归属"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木羽衣"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木羽村"/>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、水、阴、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>8月15日</untitled-ontology-25:生日>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木阿修罗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木阿修罗">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#其他归属"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木羽衣"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大筒木因陀罗"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大蛇丸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大蛇丸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三忍"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音忍高层"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#巳月"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞日斩"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波佐助"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#御手洗红豆"/>
+        <untitled-ontology-25:体重>57.3kg（第二部）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男（本体及灵魂）→不定（由容器的性别决定）</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、水、阴、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:武器>草薙剑·空之太刀</untitled-ontology-25:武器>
+        <untitled-ontology-25:生日>10月27日（天蝎座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>179.4cm→172cm（第二部）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大野木 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大野木">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土影"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#黄土"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#迪达拉"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#赤土"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#黑土"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#二代目土影无"/>
+        <untitled-ontology-25:体重>42.3kg（第四次忍界大战时期）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>10月8日（天秤座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>130.0cm（第四次忍界大战时期）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#天天 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#天天">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第三班"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#迈特凯"/>
+        <untitled-ontology-25:体重>43.1kg→47.3kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>3月9日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>155.6cm→164cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#天藏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#天藏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#暗部"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奇拉比 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奇拉比">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷忍其他"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#萨姆伊"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#卡鲁伊"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奥摩伊"/>
+        <untitled-ontology-25:体重>87.1kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、雷、水、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>5月15日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>192.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良鹿丸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良鹿丸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第十班"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良鹿久"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良鹿戴"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#手鞠"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞阿斯玛"/>
+        <untitled-ontology-25:体重>42.9kg→53.4kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、土、阴</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>9月22日（处女座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>152.1cm→170cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良鹿久 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良鹿久">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良鹿丸"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良吉乃"/>
+        <untitled-ontology-25:体重>59.8kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>7月15日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>175.2cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良鹿戴 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良鹿戴">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#后代"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良鹿丸"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中井野"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>（仅知）风、阴</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>9月23日（天秤座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:身高>155cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奥摩伊 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奥摩伊">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷忍其他"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奇拉比"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波佐助 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波佐助">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第七班"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鹰小队"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波佐良娜"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波富岳"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波美琴"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波鼬"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#春野樱"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#旗木卡卡西"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大蛇丸"/>
+        <untitled-ontology-25:体重>42.2kg-43.5kg（第一部）→52.2kg（第二部）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、水、阴</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>7月23日（狮子座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>150.8cm-153.2cm（第一部）→168.0cm（第二部）→182.0cm（剧场版10）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波佐良娜 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波佐良娜">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#后代"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波佐助"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#春野樱"/>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>（已知）雷、火、阴</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>3月31日（白羊座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:身高>147cm（剧场版11原画设定图）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波富岳 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波富岳">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波佐助"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波鼬"/>
+        <untitled-ontology-25:体重>63.1kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、阴（已知）</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>8月16日（狮子座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>175.3cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波带土 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波带土">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#波风水门"/>
+        <untitled-ontology-25:体重>44.5(13岁)→55.9[16岁(九尾事件)]→70.3kg(31岁)</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、水、阴</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>2月10日（水瓶座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>154.2(13岁)→175[16岁(九尾事件)]→182cm(31岁)</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波斑 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波斑">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#其他归属"/>
+        <untitled-ontology-25:体重>71.3kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、水、阴、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>12月24日（摩羯座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>179.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波止水 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波止水">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:体重>68.9kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、阴</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:武器>胁差</untitled-ontology-25:武器>
+        <untitled-ontology-25:生日>10月19日（天秤座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>180.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波泉奈 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波泉奈">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:体重>55.9kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>2月10日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>174.8cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波美琴 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波美琴">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波佐助"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波鼬"/>
+        <untitled-ontology-25:体重>48.9kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>6月1日（双子座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>162.6cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波镜 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波镜">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波鼬 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波鼬">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#晓"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波富岳"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波美琴"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波佐助"/>
+        <untitled-ontology-25:体重>57.1kg→58kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、水、阴、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>6月9日（双子座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>175.2cm→178cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#小南 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#小南">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#晓"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍高层"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#自来也"/>
+        <untitled-ontology-25:体重>45.3kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>风、土、水、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>2月20日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>169.4cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中三天 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中三天">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中井野 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中井野">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第十班"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良鹿戴"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中亥一"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中井阵"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#佐井"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞阿斯玛"/>
+        <untitled-ontology-25:体重>39.5kg（第一部）→46kg（第二部）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>土、水、阴、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>9月23日（天秤座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>151.2cm（第一部）→162.2cm（第二部）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中井阵 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中井阵">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#后代"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中井野"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#佐井"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>（仅知）阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>12月5日（射手座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:身高>147cm（剧场版11原画设定图）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中亥一 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中亥一">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:体重>69.1kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>1月24日（水瓶座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>180.4cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中风 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中风">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#暗部"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中井野"/>
+        <untitled-ontology-25:体重>61.7kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>8月20日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>180.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山城青叶 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山城青叶">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特别上忍"/>
+        <untitled-ontology-25:生日>9月3号 处女座</untitled-ontology-25:生日>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山椒鱼半藏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山椒鱼半藏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍高层"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#左右近 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#左右近">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐五人众"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#巳月 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#巳月">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#后代"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大蛇丸"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>（已知）风、雷</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>7月25日（狮子座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:身高>149cm（剧场版11原画设定图）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#布瑠比 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#布瑠比">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷忍其他"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#干柿鬼鲛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#干柿鬼鲛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（二）"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#晓"/>
+        <untitled-ontology-25:体重>83.1kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、土、水</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>3月18日（双鱼座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>195.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#并足雷同 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#并足雷同">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特别上忍"/>
+        <untitled-ontology-25:武器>带有剧毒的黑刃太刀</untitled-ontology-25:武器>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#弥彦 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#弥彦">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍高层"/>
+        <untitled-ontology-25:体重>57.2kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、水</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>2月20日（双鱼座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>176.5cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#御手洗红豆 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#御手洗红豆">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特别上忍"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大蛇丸"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#志村团藏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#志村团藏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#暗部"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手扉间"/>
+        <untitled-ontology-25:体重>52.7kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、土、水、阴</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>1月6日（摩羯座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>170cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#惠比寿 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#惠比寿">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特别上忍"/>
+        <untitled-ontology-25:体重>67.5kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>181.4cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#我爱罗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#我爱罗">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#风影"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#罗砂"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#加硫罗"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#勘九郎"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#手鞠"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#马基"/>
+        <untitled-ontology-25:体重>39-40.2kg（第一部）→50.9kg（第二部）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>风、土、雷</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:武器>矿物砂</untitled-ontology-25:武器>
+        <untitled-ontology-25:生日>1月19日（摩羯座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>146.1-148.1cm（第一部）→166.1cm（第二部）→172cm（剧场版10）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#手打 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#手打">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:体重>64kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>8月10日（狮子座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>170cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#手鞠 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#手鞠">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂忍其他"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#罗砂"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#加硫罗"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#勘九郎"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#我爱罗"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良鹿丸"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#马基"/>
+        <untitled-ontology-25:体重>44.5-44.9kg（第一部）→47.9kg（第二部）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:武器>三星扇</untitled-ontology-25:武器>
+        <untitled-ontology-25:生日>8月23日（处女座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>157.3-159.3cm（第一部）→165cm（第二部）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#旗木佐云 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#旗木佐云">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#旗木卡卡西"/>
+        <untitled-ontology-25:体重>65.7kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>9月3日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>181.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#旗木卡卡西 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#旗木卡卡西">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#旗木佐云"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡鸣人"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波佐助"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#春野樱"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#波风水门"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第七班"/>
+        <untitled-ontology-25:体重>67.5kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、水、阳、阴</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>9月15日（处女座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>181.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#无 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#无">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土影"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#无梨甚八 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#无梨甚八">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（一）"/>
+        <untitled-ontology-25:体重>65.1kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:武器>爆刀·飞沫</untitled-ontology-25:武器>
+        <untitled-ontology-25:生日>7月4日（巨蟹座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>172.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向伊吕波 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向伊吕波">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向孝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向孝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向宁次 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向宁次">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第三班"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向日差"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向雏田"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向花火"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#迈特凯"/>
+        <untitled-ontology-25:体重>45.8-46.8kg（第一部）→54.2kg（第二部）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、土、水</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>7月3日（巨蟹座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>159.2-160.1cm（第一部）→172.1cm（第二部）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向德间 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向德间">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特别上忍"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向日差 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向日差">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向宁次"/>
+        <untitled-ontology-25:体重>66.3kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>1月8日（摩羯座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>176.5cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向日足 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向日足">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向雏田"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向花火"/>
+        <untitled-ontology-25:体重>59.6kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>1月8日（摩羯座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>176.5cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向火门 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向火门">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向花火 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向花火">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向日足"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向雏田"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向宁次"/>
+        <untitled-ontology-25:体重>30.0kg（第一部）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>3月27日（白羊座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>132.4cm（第一部）→170cm（博人传）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向雏田 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向雏田">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第八班"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡博人"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡向日葵"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向日足"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向宁次"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向花火"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡鸣人"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#夕日红"/>
+        <untitled-ontology-25:体重>38.2kg→45kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>12月27日（摩羯座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>148.3cm（第一部）→160cm（疾风传）→163cm（剧场版10）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#时雨 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#时雨">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#春野兆 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#春野兆">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#春野樱"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#春野樱 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#春野樱">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第七班"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波佐良娜"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#春野兆"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#春野芽吹"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波佐助"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#旗木卡卡西"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手纲手"/>
+        <untitled-ontology-25:体重>35.4kg-35.9kg（第一部）→45.4kg（第二部）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>土、水、阴、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>3月28日（白羊座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>148.5cm-150.1cm（第一部）→162cm（第二部）→165cm（The Last）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#春野芽吹 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#春野芽吹">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#春野樱"/>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#月光疾风 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#月光疾风">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特别上忍"/>
+        <untitled-ontology-25:体重>58kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>11月2日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>175.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#李洛克 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#李洛克">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第三班"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#梅塔鲁·李"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#迈特凯"/>
+        <untitled-ontology-25:体重>46.6kg→56kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>11月27日（射手座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>158.5cm→172cm→177cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#枇杷十藏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#枇杷十藏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（一）"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:武器>断刀·斩首大刀</untitled-ontology-25:武器>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#林檎雨由利 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#林檎雨由利">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（二）"/>
+        <untitled-ontology-25:体重>45.0kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>雷</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:武器>雷刀·牙</untitled-ontology-25:武器>
+        <untitled-ontology-25:生日>6月7日（双子座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>143.5cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#枫 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#枫">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#枸橘矢仓 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#枸橘矢仓">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水影"/>
+        <untitled-ontology-25:体重>38.8kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>风、水（已知）</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>4月3日（白羊座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>143.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#栗霰串丸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#栗霰串丸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（一）"/>
+        <untitled-ontology-25:体重>79.9kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:武器>长刀·缝针</untitled-ontology-25:武器>
+        <untitled-ontology-25:生日>11月18日（天蝎座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>213.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#桃地再不斩 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#桃地再不斩">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（二）"/>
+        <untitled-ontology-25:体重>70kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>8月15日（狮子座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>183cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#梅塔鲁·李 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#梅塔鲁·李">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#后代"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#李洛克"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#梅雨 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#梅雨">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#梦火 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#梦火">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#森乃伊比喜 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#森乃伊比喜">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特别上忍"/>
+        <untitled-ontology-25:体重>88.0kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>3月20日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>193.5cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#次郎坊 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#次郎坊">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐五人众"/>
+        <untitled-ontology-25:体重>97.3kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>土</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>6月26日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>181.3cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水户门炎 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水户门炎">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶高层"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手扉间"/>
+        <untitled-ontology-25:体重>55.2kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>5月8日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>166.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水木 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水木">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:体重>69.4kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>10月21日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>179.4cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#沙门 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#沙门">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#风影"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#油女取根 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#油女取根">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#暗部"/>
+        <untitled-ontology-25:体重>68.7kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>10月24日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>178.3cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#油女志乃 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#油女志乃">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第八班"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#油女志微"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#夕日红"/>
+        <untitled-ontology-25:体重>48.5kg（第一部）→56.6kg（第二部）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、土、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>1月23日（水瓶座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>161.1cm（第一部）→175.1cm（第二部）→183cm（剧场版10）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#油女牟田 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#油女牟田">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特别上忍"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#油女龙马 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#油女龙马">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#暗部"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#波风水门 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#波风水门">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡鸣人"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡玖辛奈"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#自来也"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#野原琳"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#宇智波带土"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#旗木卡卡西"/>
+        <untitled-ontology-25:体重>66.1kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、阴、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>1月25日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>179.2cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#海老藏 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#海老藏">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂隐高层"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千代"/>
+        <untitled-ontology-25:体重>45kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>1月26日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>158CM</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#海野伊鲁卡 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#海野伊鲁卡">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡鸣人"/>
+        <untitled-ontology-25:体重>66.2kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、水、阴</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>5月26日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>178cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡博人 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡博人">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#后代"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡鸣人"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向雏田"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>（已知）风、雷、水</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:身高>145cm（剧场版11原画设定图）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡向日葵 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡向日葵">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#后代"/>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:身高>138cm（剧场版11原画设定图）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡水户 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡水户">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手柱间"/>
+        <untitled-ontology-25:体重>48.0kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>5月3日（金牛座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>169.3cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡玖辛奈 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡玖辛奈">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡鸣人"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#波风水门"/>
+        <untitled-ontology-25:体重>47.0kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>风、水、阴</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>7月10日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>165cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡芦名 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡芦名">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#其他归属"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡长门 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡长门">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍高层"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#自来也"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡鸣人 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡鸣人">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第七班"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#波风水门"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡玖辛奈"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡博人"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡向日葵"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向雏田"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#海野伊鲁卡"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#自来也"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#旗木卡卡西"/>
+        <untitled-ontology-25:体重>40.1-40.6kg（第一部）→50.9kg（第二部）→60kg（剧场版10）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、水、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>10月10日（天秤座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>147.3-149.5cm（第一部）→166cm（第二部）→180cm(剧场版10）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#烈斗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#烈斗">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#风影"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千代"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#照美冥 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#照美冥">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水影"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#长十郎"/>
+        <untitled-ontology-25:体重>53.0kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、雷、土、水</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>5月21日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>174.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特洛伊 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#特洛伊">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#犬冢牙 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#犬冢牙">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第八班"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#犬冢爪"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#犬冢花"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#夕日红"/>
+        <untitled-ontology-25:体重>43.3kg（第一部中忍考试）→44.7kg（第一部完结）→52.5kg（第二部至699话）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>土、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>7月7日（巨蟹座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>151.2cm（第一部中忍考试）→152.5cm（第一部完结）→169.1cm（第二部至699话）→174cm（剧场版10）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#犬冢花 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#犬冢花">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#犬冢牙"/>
+        <untitled-ontology-25:体重>52.5kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>4月13日(牡羊座)</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>170.3cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞佐助 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞佐助">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞日斩 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞日斩">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞阿斯玛"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞琵琶湖"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手扉间"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#自来也"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手纲手"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大蛇丸"/>
+        <untitled-ontology-25:体重>50.6kg（老年）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、水、阴、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>2月8日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>163.1cm（老年）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞木叶丸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞木叶丸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶丸军团"/>
+        <untitled-ontology-25:体重>29.5kg（第一部）→36.9kg（第二部）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>风、火、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>12月30日（摩羯座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>128.8-130.6cm（第一部）→141.1cm（第二部）→157cm（剧场版10）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞未来 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞未来">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞阿斯玛"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#夕日红"/>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>（已知）风、火</untitled-ontology-25:查克拉属性>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞琵琶湖 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞琵琶湖">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞阿斯玛"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞日斩"/>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞阿斯玛 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞阿斯玛">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第十班"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞琵琶湖"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞日斩"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞未来"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#奈良鹿丸"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道丁次"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#山中井野"/>
+        <untitled-ontology-25:体重>81.6kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>（仅确认）风、火</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>10月18日（天秤座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>190.8cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#班 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#班">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#琴·槌 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#琴·槌">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#听小骨三人众"/>
+        <untitled-ontology-25:体重>39kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>7月6日（巨蟹座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>150.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#由良 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#由良">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂忍其他"/>
+        <untitled-ontology-25:生日>3月10日</untitled-ontology-25:生日>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#白 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#白">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#白莲 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#白莲">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水影"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#真树 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#真树">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#石河 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#石河">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土影"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#神月出云 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#神月出云">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:体重>58kg（临之书）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>11月25日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>169cm（临之书）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道丁座 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道丁座">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道丁次"/>
+        <untitled-ontology-25:体重>120.1Kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>4月22日（金牛座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>1.83m</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道丁次 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道丁次">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第十班"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道丁座"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道蝶蝶"/>
+        <untitled-ontology-25:is_married_to rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#卡鲁伊"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞阿斯玛"/>
+        <untitled-ontology-25:体重>69.3kg（第一部）→87.5kg（第二部）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>5月1日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>156.3cm（第一部）→172.3cm（第二部）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道取风 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道取风">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道蝶蝶 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道蝶蝶">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#后代"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#卡鲁伊"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#秋道丁次"/>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>（仅知）雷、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>8月8日（狮子座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:身高>150cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#篝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#篝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#纲手 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#纲手">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三忍"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#火影"/>
+        <untitled-ontology-25:体重>48.9kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、雷、土、水、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>8月2日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>163.1cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#绝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#绝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#晓"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、水、阴、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>177cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#罗砂 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#罗砂">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#风影"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#我爱罗"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#手鞠"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#勘九郎"/>
+        <untitled-ontology-25:体重>64.1kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>风、水、土、阴</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>3月29日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>176.5cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#羽高 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#羽高">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#老紫 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#老紫">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#胧 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#胧">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#自来也 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#自来也">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#三忍"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#猿飞日斩"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡鸣人"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#小南"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡长门"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#漩涡弥彦"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#波风水门"/>
+        <untitled-ontology-25:体重>88kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、土、水、阴、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>11月11日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>191.2cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#萨克·镫 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#萨克·镫">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#听小骨三人众"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#蝎 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#蝎">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#晓"/>
+        <untitled-ontology-25:体重>47.3kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>11月8日（天蝎座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>164.1cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#西瓜山河豚鬼 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#西瓜山河豚鬼">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（一）"/>
+        <untitled-ontology-25:体重>156.7kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:武器>大刀·鲛肌</untitled-ontology-25:武器>
+        <untitled-ontology-25:生日>2月22日（双鱼座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>249.1cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#角都 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#角都">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#晓"/>
+        <untitled-ontology-25:体重>63.2kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、风、雷、土、水</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>8月15日（狮子座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>185cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#赤土 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#赤土">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土忍其他"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大野木"/>
+        <untitled-ontology-25:体重>137.0kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>1月11日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>200.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#赤铜铠 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#赤铜铠">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#转寝小春 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#转寝小春">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶高层"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#千手扉间"/>
+        <untitled-ontology-25:体重>46.3kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>9月1日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>153.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#辉夜君麻吕 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#辉夜君麻吕">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐五人众"/>
+        <untitled-ontology-25:体重>49.8 kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>6月15日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>166.1cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#达鲁伊 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#达鲁伊">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷忍其他"/>
+        <untitled-ontology-25:体重>68.5kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>风、雷、水</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>1月6日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>176.5cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#迈特·戴 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#迈特·戴">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_parent_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#迈特凯"/>
+        <untitled-ontology-25:体重>78.4kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>无</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>12月10日（射手座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>186.4cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#迈特凯 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#迈特凯">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#第三班"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#迈特·戴"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#李洛克"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#天天"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#日向宁次"/>
+        <untitled-ontology-25:体重>76kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、雷</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>1月1日（摩羯座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>184cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#迪达拉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#迪达拉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#晓"/>
+        <untitled-ontology-25:体重>50.8kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大野木"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>（已知）土</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>5月5日（金牛座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>166cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#通草野饵人 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#通草野饵人">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（一）"/>
+        <untitled-ontology-25:体重>92.5kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:武器>钝刀·兜割</untitled-ontology-25:武器>
+        <untitled-ontology-25:生日>9月25日（天秤座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>179.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#重吾 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#重吾">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鹰小队"/>
+        <untitled-ontology-25:体重>75.8kg（第二部至699话）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>风、土、水、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>10月1日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>202.1cm（第二部以后）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#野原琳 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#野原琳">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#波风水门"/>
+        <untitled-ontology-25:体重>39.8kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、水、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>11月15日（天蝎座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>143.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#金角银角 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#金角银角">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷忍其他"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#钢子铁 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#钢子铁">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:体重>52.3kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>7月21日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>167.5cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#长十郎 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#长十郎">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水影"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#照美冥"/>
+        <untitled-ontology-25:体重>49.5kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:武器>双刀“鲆鲽”</untitled-ontology-25:武器>
+        <untitled-ontology-25:生日>11月1日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>163.6cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#青 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#青">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雾忍其他"/>
+        <untitled-ontology-25:体重>70.9kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>8月1日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>182cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#风祭萌黄 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#风祭萌黄">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶丸军团"/>
+        <untitled-ontology-25:体重>20kg（第一部）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>6月8日（双子座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>121.8cm（第一部）→139cm（第二部）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#飞段 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#飞段">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#晓"/>
+        <untitled-ontology-25:体重>56.8kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>4月2日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>177.1cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#飞竹蜻蜓 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#飞竹蜻蜓">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#木叶其他"/>
+        <untitled-ontology-25:体重>55KG</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>4月4日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>167CM</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#香燐 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#香燐">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鹰小队"/>
+        <untitled-ontology-25:体重>45.8kg（第二部至699话）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>水、土、阴、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>6月20日（双子座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>162.2cm（初登场）→162.66cm（至699话）→166cm（博人传）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#马基 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#马基">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#砂忍其他"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#我爱罗"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#勘九郎"/>
+        <untitled-ontology-25:is_teacher_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#手鞠"/>
+        <untitled-ontology-25:体重>80.0kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>7月4日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>188.2cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#骤雨 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#骤雨">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雨忍其他"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鬼灯千刃 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鬼灯千刃">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（一）"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鬼灯幻月 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鬼灯幻月">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#水影"/>
+        <untitled-ontology-25:体重>75.4kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>火、雷、土、水、阴、阳</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>10月26日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>186.6cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鬼灯水月 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鬼灯水月">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鹰小队"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鬼灯满月"/>
+        <untitled-ontology-25:体重>57kg（第二部至699话）</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>风、水</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:武器>斩首大刀</untitled-ontology-25:武器>
+        <untitled-ontology-25:生日>2月18日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>B型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>177.4cm（第二部至699话）→178.6cm（博人传）</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鬼灯满月 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鬼灯满月">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（二）"/>
+        <untitled-ontology-25:is_sibling_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鬼灯水月"/>
+        <untitled-ontology-25:体重>54.7kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:身高>172.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鬼童丸 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#鬼童丸">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#音隐五人众"/>
+        <untitled-ontology-25:体重>56.2kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>12月16日（射手座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>159.2cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#魔蛭 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#魔蛭">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土忍其他"/>
+        <untitled-ontology-25:体重>59.2kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>6月18日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>AB型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>175.6cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#麻布依 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#麻布依">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#雷忍其他"/>
+        <untitled-ontology-25:体重>52.4kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>2月1日（水瓶座）</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>A型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>165cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#黄土 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#黄土">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土忍其他"/>
+        <untitled-ontology-25:is_child_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大野木"/>
+        <untitled-ontology-25:体重>120.5kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:生日>3.22</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>0型</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>217.0cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#黑土 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#黑土">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#土忍其他"/>
+        <untitled-ontology-25:is_student_of rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#大野木"/>
+        <untitled-ontology-25:体重>47.5kg</untitled-ontology-25:体重>
+        <untitled-ontology-25:性别>女</untitled-ontology-25:性别>
+        <untitled-ontology-25:查克拉属性>土、水、火</untitled-ontology-25:查克拉属性>
+        <untitled-ontology-25:生日>9月6日</untitled-ontology-25:生日>
+        <untitled-ontology-25:血型>O型（处女座）</untitled-ontology-25:血型>
+        <untitled-ontology-25:身高>163.6cm</untitled-ontology-25:身高>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#黑锄雷牙 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#黑锄雷牙">
+        <rdf:type rdf:resource="http://www.semanticweb.org/administrator/ontologies/2019/4/untitled-ontology-25#忍刀七人众（一）"/>
+        <untitled-ontology-25:性别>男</untitled-ontology-25:性别>
+        <untitled-ontology-25:武器>雷刀·牙</untitled-ontology-25:武器>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
